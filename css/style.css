@@ -30,3 +30,57 @@ body{
     text-decoration: none;
 
 }
+/* personal portfolio version */
+.mifoto {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.mifoto:before {
+   content: "";
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.personal-caja h2{
+    font-size: 3rem;
+    margin-top: 30px;
+}
+.personal-caja h3{
+    font-size: 2.2rem;
+    margin-top: .6rem;
+}
+
+.efecto-color {
+    background: linear-gradient(60deg, rgba(16, 74, 139, 0.76) 10%, rgba(137, 192, 127, 0.67) 50%);
+}
+.posicion-color {
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65%;
+}
+.fullscreen {
+    height: 70vh !important;
+    width: 100%;
+}
+.texto-portafolio{
+    width: 500px;
+    text-align: justify;
+    padding: 10px 20px;
+    
+}
+.img-foto {
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
