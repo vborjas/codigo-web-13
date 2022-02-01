@@ -1,0 +1,32 @@
+body{
+    font-family: helvetica;
+}
+.link-referencia{
+    background-color: coral;
+    color: #000;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 9px;
+
+}
+
+.link-referencia:hover{
+    color: white;
+}
+
+.contenedor-principal{
+    text-align: center;
+}
+.imagen-perfil{
+    border-radius: 50px;
+    border: 2px solid rgb(12, 85, 18);
+}
+
+.btn-github{
+    border: 2px solid rgb(12, 85, 18);
+    border-radius: 8px;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+
+}
