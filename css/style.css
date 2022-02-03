@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: helvetica;
 }
@@ -7,7 +11,27 @@ body{
     padding: 10px;
     text-decoration: none;
     border-radius: 9px;
+    margin: 20px;
 
+}
+.lista-semanas{
+    margin: 40px;
+    padding: 40px;
+}
+.lista-semanas li{
+    padding: 20px;
+    list-style: none;
+}
+h3{
+    margin: 20px;
+}
+
+.divisor{
+    margin: 20px;
+    height: 4px;
+    background-color: salmon;
+    border: none;
+    border-radius: 12px;
 }
 
 .link-referencia:hover{
@@ -17,6 +41,11 @@ body{
 .contenedor-principal{
     text-align: center;
 }
+.contenedor-clases{
+height: 100vh;
+background-color: rgb(236, 238, 146);
+}
+
 .imagen-perfil{
     border-radius: 50px;
     border: 2px solid rgb(12, 85, 18);
