@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <section>
+        <h1>Registro de Personal</h1>
+
+    <form action="" method="get" >
+        <p>
+        <label for="nombre"><strong>Nombre: </strong> </label>
+        <input type="text" placeholder="Colocar tu Nombre" name="nombre" id="mi_nombre" required>
+    </p>
+    <p>
+        <label for="apellido"><strong>Apellidos: </strong> </label>
+        <input type="text" placeholder="Colocar tu Apellido" name="apellido" id="mi_apellido" required>
+    </p>
+    <p>
+        <label for="nombre"><strong>Tipo documento: </strong></label>
+        <select name="select" aria-placeholder="Seleccionar" >
+            
+            <option value="D.N.I">D.N.I</option>
+            <option value="C.E" >C.E</option>
+            <option value="PASAPORTE">PASAPORTE</option>
+          </select>
+    </p>
+    <p>
+        <label for="dni"><strong>Número de Documento:</strong> </label>
+        <input type="text" placeholder="Colocar tu nro. documento" minlength="1" maxlength="8" name="dni" id="mi_dni" required/>
+    </p>
+    <p>
+        <label for="dni"><strong>Edad:</strong> </label>
+        <input type="number" placeholder="Colocar tu Edad" name="edad" id="mi_edad" >
+    </p>
+    <p>
+        <label for="dni"><strong>Fecha de Nacimiento:</strong> </label>
+        <input type="date" name="fechanac" id="mi_fechanac" required>
+    </p>
+    <p>
+        <label for="sexo"><strong>Sexo:</strong> </label>
+        <input type="radio" name="sexo" id="mi_sexo" value="Femenino">Femenino
+        <input type="radio" name="sexo" id="mi_sexo" value="masculino">Masculino
+        
+    </p>
+    <p>
+        <label for="telefono"><strong>Telefono:</strong> </label>
+        <input type="tel" placeholder="Colocar tu Telefono" name="telefono" id="mi_telefono" >
+    </p>
+ 
+   
+    <p>
+        <input type="submit" value="Registro" style="width: 150px; "/>
+        <input type="reset" value="Limpiar Campos" style="width: 150px; "/>
+    </p>
+
+
+
+    </form>
+git pull
+    
+        
+    </section>
+</body>
+</html>

@@ -12,27 +12,35 @@
     <meta name="twitter:title" content="Mi pagina web" />
     <meta name="twitter:description" content="Esta pagina es donde estoy aprendiendo HTML, CSS y JS" />
     <meta name="twitter:image"
-        content="https://concepto.de/wp-content/uploads/2019/04/codigo-abierto-e1554759598605.jpg" />
+        content="../imagenes/" />
     <title>Codigo Front 13</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <div class="img-foto contenedor-principal posicion-color efecto-color">
-         <div class="fullscreen">
-            <div class="personal-caja">
-                <div class="mifoto">
-                    <img src="./imagenes/victor5.jpg" alt="" width="150" height="180">
-                </div>
-                <div class="color-white">
-                    <h2>Hola, Soy Victor</h2>
-                    <h3 id="personal"></h3>
-                </div>
-           
+  <header class="header">
+    <nav class="nav">
+      <ul>
+        <li>
+          <a href="#proyectos">Trabajos</a>
+        </li>
+        <li>
+          <a href="">Blog</a>
+        </li>
+        <li>
+          <a href="">Contactame</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+    <section class="banner">
+      <div>
+      <h1 class="title">Hola, Soy Victor</h1>
+      <h1 class="title">Enginner.</h1>
+      <p class="resume-title">
+                     
     
-    <h1>MI PORTAFOLIO</h1>
-    <div >
-    <span >
+   
         MI nombre es Victor Borjas soy ingeniero en Sistemas.
         Trabajo en: Grupo 3C en la área de Sistemas
         Conocimientos en programación; Java, .Net, C#, php basico, manejo de BD. 
@@ -40,21 +48,27 @@
         hobbies: Manejar Bicicleta, viajar y Bailar.
         tengo en mente muchos proyectos que me gustaría hacer en un ambiente web.
 
-    </span>
+      </p>
+      <button class="btn-primary">Descargar Resumen</button>
+      <a  href="https://vborjas.github.io/codigo-web-13/">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+          alt=""
+          width="15"
+        />
+        
+      </a>
 </div>
-    <p>
-        <a class="btn-github" href="https://vborjas.github.io/codigo-web-13/">
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-            alt=""
-            width="15"
-          />
-          GitHub
-        </a>
+    
+<div>
+  <img class="img-profile" src="./imagenes/victor5.jpg" alt="" />
+ 
+</div>
+<p>
+       
       </p>
    
-</div>
-</div>
+    </section>
    
    <!-- Lista en HTML -->
     <!-- <ol>
@@ -62,50 +76,71 @@
       <li>Elemento 2</li>
       <li>Elemento 3</li>
     </ol> -->
-    <section class="contenedor-clases">
-        <div>
-        <ul class="lista-semanas">
-          <li>
-            <h5>Semana 1</h5>
-            <img
-              src="https://freeiconshop.com/wp-content/uploads/edd/folder-open-flat.png"
-              alt="semana1"
-              width="100"
-            />
-          </li>
-          <li>
-            <h5>Semana 2</h5>
-            <img
-              src="https://freeiconshop.com/wp-content/uploads/edd/folder-open-flat.png"
-              alt="semana1"
-              width="100"
-            />
-          </li>
-        </ul>
-    </div>
-        <div>
-          <h3>Temas semana 1</h3>
-          <a class="link-referencia" href="./semana1/inputs.html"
-            >Link para inputs</a
-          >
-          <a class="link-referencia" href="./semana1/form.html"
-            >Link a formularios</a
-          >
-          <a class="link-referencia" href="./semana1/tablas.html"
-            >Link a Tablas</a
-          >
+    <section id="proyectos">
+      <div class="section-works">
+        <h4 class="text-works">Trabajos Realizados</h4>
+        <div class="card">
+          <div>
+            <a class="link-portafolio" href="./reto1/reto1.html">
+              <img class="sombra" src="./reto1/design/desktop-design.jpg" alt="" />
+            </a>
+          </div>
+          <div class="container-detail">
+            <a class="link-portafolio" href="./reto1/reto1.html">
+              <h2 class="titulo-reto">Reto 1 - NFT Design</h2>
+            </a>
+
+            <p>
+              <span class="label-dark">2022</span>
+              <span class="text-light">&nbsp;&nbsp;&nbsp;NFT Design</span>
+            </p>
+            <p class="resume">
+              Este reto fue hecho en front-end mentor usando HTML y CSS
+            </p>
+          </div>
         </div>
-  
-        <div>
-          <h3>Temas semana 2</h3>
-          <a class="link-referencia" href="./semana2/index.html"
-            >Introducción a CSS</a
-          >
+        <hr />
+        <div class="card">
+          <div>
+            <a class="link-portafolio" href="./reto2/reto2.html">
+              <img class="sombra" src="./reto2/design/desktop-design.jpg" alt="" />
+            </a>
+          </div>
+          <div class="container-detail">
+            <a class="link-portafolio" href="./reto2/reto2.html">
+              <h2 class="titulo-reto">Reto 2 - Build The Cominuty</h2>
+            </a>
+            <p>
+              <span class="label-dark">2022</span>
+              <span class="text-light">&nbsp;&nbsp;&nbsp;Build The Cominuty</span>
+            </p>
+            <p class="resume">
+              Este reto fue hecho en front-end mentor usando HTML y CSS
+            </p>
+          </div>
         </div>
-      </section>
-    </body>
-  </html>
-  
-      
-  
-  
+        <hr />
+        <div class="card">
+          <div>
+            <a class="link-portafolio" href="./reto3/reto3.html">
+              <img class="sombra" src="./reto3/design/desktop-design.jpg" alt="" />
+            </a>
+          </div>
+          <div class="container-detail">
+            <a class="link-portafolio" href="./reto3/reto3.html">
+              <h2 class="titulo-reto">Reto 3 - Comments</h2>
+            </a>
+            <p>
+              <span class="label-dark">2022</span>
+              <span class="text-light">&nbsp;&nbsp;&nbsp;Comments</span>
+            </p>
+            <p class="resume">
+              Este reto fue hecho en front-end mentor usando HTML y CSS
+            </p>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </section>
+  </body>
+</html>
