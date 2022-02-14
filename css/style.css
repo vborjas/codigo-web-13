@@ -162,43 +162,41 @@
   }
   
   
-.footer-style{
-    padding: 5rem 0;
+  .footer {
+    height: 30vh;
+    background: linear-gradient(60deg, rgba(15, 48, 85, 0.76) 20%, rgba(38, 33, 59, 0.67) 80%);
+    color: white;
+   
+     
+  }
+  
+  .contacto-footer {
+    display: flex;
+    height: 30vh;
+    margin: 0,0,0,0;
+  align-items: center ;
+  justify-content: space-evenly;
+  
+  }
+  
+  .contacto-footer div{
+    display: flex;
+    
+    
+  }
+  
+  .menu-social {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+  
+  }
+.logo{
+    border-radius: 12px;
 }
-
-.footer-social ul{
-    margin: 0;
-    padding: 0;
-}
-
-.footer-social li{
-    display: inline-block;
-}
-
-.footer-social a {
-    display: block;
-    width: 45px;
-    height: 45px;
-    text-align: center;
-    line-height: 45px;
-    border-radius: 50px;
-    font-size: 17px;
-    margin: 0 10px 0 0;
-    border: 1px solid transparent;
-    -webkit-transition: background-color .2s ease-in-out;
-    -o-transition: background-color .2s ease-in-out;
-    transition: background-color .2s ease-in-out;
-}
-
-.footer-social li:nth-last-child(1) a{
-    margin-right: 0;
-}
-
-.footer-social li a:hover{
-    background-color:#a07bf7;
-    color: #ffffff;
-}
-
-.company-about{
-    font-size: 14px;
-}
+.letras
+{
+  color: #fff;
+  
+} 
