@@ -104,3 +104,16 @@ const personas1 = [
     num2 = Math.pow(num2,2);
     return `el numero: ${num1} el segundo es ${num2}`
 };
+
+
+const pedirNombre = (nombre , apellido ,edad) => {
+  return `Estimado, : ${nombre} ${apellido} usted tiene ${edad} de edad?`
+};
+
+const calculoAreaRectangulo = (base, altura) =>{
+return `El area del Rectagulo es ${+base * +altura}`
+}
+
+const recibirArreglo = (array)=>{
+  return array.length > 5 ? "array grande" : "Array peque"
+}
