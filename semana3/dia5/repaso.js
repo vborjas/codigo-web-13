@@ -98,3 +98,9 @@ const personas1 = [
       return num%2 === 0 ? "Num Par" : "Num es Impar"
 
   }
+
+  let calcularPotenciaCuadrado = (num1, num2) => {
+    num1 = num1 * num1;
+    num2 = Math.pow(num2,2);
+    return `el numero: ${num1} el segundo es ${num2}`
+};
