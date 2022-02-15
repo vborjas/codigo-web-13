@@ -1,0 +1,40 @@
+/* * - es todo */
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana;
+}
+
+.contenedor p{
+    color: brown;
+}
+
+.contenedor-dos h2 {
+    color: chartreuse;
+}
+.contenedor-tres a img {
+    border: 2px solid rgb(39, 136, 36);
+  }
+.menu-navega{
+      margin: 20px;
+}
+  /* }
+  ul > li {
+      border: 2px solid rgb(39, 136, 36);
+  } */
+.link-navega{
+    border: 2px solid rgb(39, 136, 36);
+}
+input[type="email"] {
+    background-color: rgb(217, 251, 207);
+  }
+  
+  input[type="text"] {
+    color: rgb(9, 158, 96);
+  }
+  
+  input[type="password"] {
+    color: rgb(55, 172, 26);
+  }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+</head>
+
+<body>
+    <h1>Tipos de Inputs</h1>
+    <input type="text" placeholder="Ingresar tu nombre" value="victor" name="nombre" id="mi_nombre" />
+    <input type="text" placeholder="Ingresa tu Apellido" name="apellido" id="mi_apellido">
+
+    <h2>Input Number</h2>
+    <input type="number" placeholder="Ingrese su edad" name="edad" id="mi_edad">
+
+    <h2>Input email y password</h2>
+
+    <input type="email" placeholder="Ingrese su correo" name="correo" id="mi_correo">
+    <input type="password" placeholder="Ingrese su password" name="password" id="mi_password">
+
+    <input type="submit" value="Ingresar" />
+
+    <h2>Inputs de tipo fecha y hora</h2>
+    <input type="date" name="fecha" id="mi_fecha">
+    <input type="time" name="hora" id="mi_hora">
+    <input type="datetime-local" name="horalocal" id="mi_horalocal">
+
+    <h2>Input de tipo archivo</h2>
+    <input type="file" name="archivo" id="mi_archivo">
+    <p>solo pdf</p>
+    <input type="file" accept="application/pdf" name="archivopdf" id="mi_archivopdf">
+    <p>solo videos</p>
+    <input type="file" accept="video/*" name="archivopdf" id="mi_archivopdf">
+    <p>solo imagenes</p>
+    <input type="file" accept="image*" name="archivopdf" id="mi_archivopdf">
+    <p>audios</p>
+    <input type="file" accept="audio/*" name="archivopdf" id="mi_archivopdf">
+    <!-- input tipo radio checkbox -->
+    <h2>Inputs de tipo radio checkbox</h2>
+    <p>
+        <input type="radio" name="opcion_registro" id="radio_1"> Radio1
+        <br>
+        <input type="radio" name="opcion_registro" id="radio_2"> Radio2
+        <br>
+        <input type="radio" name="opcion_registro" id="radio_3"> Radio3
+    </p>
+    <p>checkbox</p>
+    <p>
+        <input type="checkbox" name="opcion_check[]" id="opcion_1">check1
+        <br />
+        <input type="checkbox" name="opcion_check[]" id="opcion_2">check2
+        <br />
+        <input type="checkbox" name="opcion_check[]" id="opcion_3">check3
+
+    </p>
+
+    <input type="color" name="color" id="mi_color">
+
+    <h2>input rango</h2>
+    <input type="range" name="rango" id="mi_rango">
+
+    <h2>input search</h2>
+    <input type="search" placeholder="ingresa tu busqueda" name="busqueda" id="mi_busqueda">
+
+    <h2>Input Telefono</h2>
+    <input type="tel" name="telefono" id="mi_telefono">
+
+</body>
+
+</html>
