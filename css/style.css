@@ -100,7 +100,6 @@
     height: 180px;
     object-fit: cover;
     border-radius: 8px;
-   
   }
   
   .text-works {
@@ -160,8 +159,6 @@
   .titulo-reto {
     color: white;
   }
-  
-  
   .footer {
     height: 30vh;
     background: linear-gradient(60deg, rgba(15, 48, 85, 0.76) 20%, rgba(38, 33, 59, 0.67) 80%);
